@@ -12,3 +12,5 @@ Screenshot terminal
 Ini adalah screenshot terminal subscriber dimana telah berhasil menerima 5 event message broker dari publisher
 ![alt text](image-1.png)
 Ini adalah screenshoot terminal publisher dimana telah berhasil menjalankan `cargo run` untuk mengirim 5 event memalui message broker yang kemudian akan diproses oleh subscriber.
+![alt text](image.png)
+Ini adalah screenshot interface RabbitMQ dimana ada spike pada message rates yang disebabkan karena saya menjalankan publisher berkali-kali.
