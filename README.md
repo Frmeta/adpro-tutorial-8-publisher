@@ -6,3 +6,9 @@ b. The url of: “amqp://guest:guest@localhost:5672” is the same as in the sub
 
 Screen of running RabbitMQ
 ![Screen of running RabbitMQ](img/image.png)
+
+Screenshot terminal
+![alt text](image-2.png)
+Ini adalah screenshot terminal subscriber dimana telah berhasil menerima 5 event message broker dari publisher
+![alt text](image-1.png)
+Ini adalah screenshoot terminal publisher dimana telah berhasil menjalankan `cargo run` untuk mengirim 5 event memalui message broker yang kemudian akan diproses oleh subscriber.
